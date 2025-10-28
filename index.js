@@ -83,3 +83,12 @@ window.addEventListener("hashchange", function () {
 
 
 });
+
+/***************DATE LAST UPDATED********************/
+window.onload = function () {
+    var disclaimer = "<hr/><i> This website does not constitute legal, medical, or official government advice. It is not affiliated with Pluslife, nor their distributors Altruan or Ngaio Diagnostics. Last updated ";
+    var date = "28 Oct 2025.</i>"
+    var footerText = disclaimer + date;
+
+    document.getElementById('footer').innerHTML = footerText;
+};
